@@ -1,4 +1,4 @@
-live site:'https://tickets-bd.web.app/'
+live site:https://tickets-bd.web.app/
 
 Tickets-BD is react project focused on Authentication and Redirection 
 in this application user have to login if he/she have an account or create
