@@ -1,0 +1,7 @@
+.background_header{
+    background-image:url(../../Images/mantravell.png);
+    background-image: fluid;
+    background-repeat:no-repeat; 
+    height: 400px;
+    /* width: 1600px; */
+}

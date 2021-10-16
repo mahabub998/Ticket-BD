@@ -7,6 +7,8 @@ import Login from './Components/Login/Login';
 import { createContext, useState } from 'react';
 import MenuBar from './Components/MenuBar/MenuBar';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
 const userInfo = {
 	name: '',
 	email: '',
@@ -21,6 +23,7 @@ function App() {
 		<UserContext.Provider value={[user, setUser]}>
 			<Router>
 				<MenuBar/>
+				<Header />
 				<Switch>
 					<Route path="/home">
 						<Home />
@@ -38,6 +41,7 @@ function App() {
 						<NotFound />
 					</Route>
 				</Switch>
+				<Footer />
 			</Router>
 		</UserContext.Provider>
 	);
